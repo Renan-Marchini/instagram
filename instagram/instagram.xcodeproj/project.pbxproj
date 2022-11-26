@@ -26,6 +26,7 @@
 		24BEC5B12932972300180DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24BEC5B829329AC100180DF8 /* CoordinatorKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoordinatorKit; path = ../../SPM/Kits/CoordinatorKit; sourceTree = "<group>"; };
 		24BEC5BC29329B6600180DF8 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		24FB2E2E2932AA03005F1F35 /* HomeKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HomeKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		24BEC5B729329A8A00180DF8 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				24FB2E2E2932AA03005F1F35 /* HomeKit */,
 				24BEC5B829329AC100180DF8 /* CoordinatorKit */,
 			);
 			path = Packages;
