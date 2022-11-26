@@ -6,6 +6,7 @@
 //
 
 import CoordinatorKit
+import HomeKit
 
 // MARK: - RootCoordinator
 
@@ -14,6 +15,12 @@ class RootCoordinator: Coordinator {
     // MARK: - Start
 
     override func start() {
-        navigationController?.pushViewController(DefaultViewController(), animated: true)
+        startHome()
+    }
+
+    private func startHome() {
+        let coordinator = HomeCoordinator(navigationController: navigationController)
+        childCoordinators.append(coordinator)
+        coordinator.start()
     }
 }
