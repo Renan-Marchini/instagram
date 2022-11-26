@@ -12,6 +12,7 @@
 		24BEC5A82932972100180DF8 /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BEC5A72932972100180DF8 /* DefaultViewController.swift */; };
 		24BEC5AD2932972300180DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BEC5AC2932972300180DF8 /* Assets.xcassets */; };
 		24BEC5B02932972300180DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BEC5AE2932972300180DF8 /* LaunchScreen.storyboard */; };
+		24BEC5BB29329B0400180DF8 /* CoordinatorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 24BEC5BA29329B0400180DF8 /* CoordinatorKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BEC5BB29329B0400180DF8 /* CoordinatorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +44,7 @@
 				24BEC5B729329A8A00180DF8 /* Packages */,
 				24BEC5A22932972100180DF8 /* instagram */,
 				24BEC5A12932972100180DF8 /* Products */,
+				24BEC5B929329B0400180DF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +77,13 @@
 			path = Packages;
 			sourceTree = "<group>";
 		};
+		24BEC5B929329B0400180DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -90,6 +100,9 @@
 			dependencies = (
 			);
 			name = instagram;
+			packageProductDependencies = (
+				24BEC5BA29329B0400180DF8 /* CoordinatorKit */,
+			);
 			productName = instagram;
 			productReference = 24BEC5A02932972100180DF8 /* instagram.app */;
 			productType = "com.apple.product-type.application";
@@ -352,6 +365,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		24BEC5BA29329B0400180DF8 /* CoordinatorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoordinatorKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24BEC5982932972100180DF8 /* Project object */;
 }
