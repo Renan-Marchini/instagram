@@ -22,6 +22,7 @@
 		24BEC5AC2932972300180DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24BEC5AF2932972300180DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24BEC5B12932972300180DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24BEC5B829329AC100180DF8 /* CoordinatorKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoordinatorKit; path = ../../SPM/Kits/CoordinatorKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		24BEC5972932972100180DF8 = {
 			isa = PBXGroup;
 			children = (
+				24BEC5B729329A8A00180DF8 /* Packages */,
 				24BEC5A22932972100180DF8 /* instagram */,
 				24BEC5A12932972100180DF8 /* Products */,
 			);
@@ -62,6 +64,14 @@
 				24BEC5B12932972300180DF8 /* Info.plist */,
 			);
 			path = instagram;
+			sourceTree = "<group>";
+		};
+		24BEC5B729329A8A00180DF8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				24BEC5B829329AC100180DF8 /* CoordinatorKit */,
+			);
+			path = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
