@@ -9,11 +9,11 @@ import CoordinatorKit
 
 // MARK: - HomeCoordinator
 
-class HomeCoordinator: Coordinator {
+public class HomeCoordinator: Coordinator {
 
     // MARK: - Start
 
-    override func start() {
+    public override func start() {
         
     }
 }
