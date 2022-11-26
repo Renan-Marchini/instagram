@@ -5,11 +5,15 @@
 //  Created by Renan Andrusiac on 26/11/22.
 //
 
-import Foundation
+import CoordinatorKit
 
 // MARK: - HomeCoordinator
 
-class HomeCoordinator {
+class HomeCoordinator: Coordinator {
 
-    
+    // MARK: - Start
+
+    override func start() {
+        
+    }
 }
