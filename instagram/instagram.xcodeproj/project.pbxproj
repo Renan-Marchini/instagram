@@ -14,6 +14,7 @@
 		24BEC5B02932972300180DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BEC5AE2932972300180DF8 /* LaunchScreen.storyboard */; };
 		24BEC5BB29329B0400180DF8 /* CoordinatorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 24BEC5BA29329B0400180DF8 /* CoordinatorKit */; };
 		24BEC5BD29329B6600180DF8 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BEC5BC29329B6600180DF8 /* RootCoordinator.swift */; };
+		24FB2E302932ABC2005F1F35 /* HomeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 24FB2E2F2932ABC2005F1F35 /* HomeKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FB2E302932ABC2005F1F35 /* HomeKit in Frameworks */,
 				24BEC5BB29329B0400180DF8 /* CoordinatorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +109,7 @@
 			name = instagram;
 			packageProductDependencies = (
 				24BEC5BA29329B0400180DF8 /* CoordinatorKit */,
+				24FB2E2F2932ABC2005F1F35 /* HomeKit */,
 			);
 			productName = instagram;
 			productReference = 24BEC5A02932972100180DF8 /* instagram.app */;
@@ -376,6 +379,10 @@
 		24BEC5BA29329B0400180DF8 /* CoordinatorKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CoordinatorKit;
+		};
+		24FB2E2F2932ABC2005F1F35 /* HomeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
